@@ -16,11 +16,15 @@ $(function () {
 
   let equipo = $("#equipo").offset().top,
     trabajo = $("#trabajo").offset().top,
+    calendario = $("#calendario").offset().top,
+    sugerencias = $("#sugerencias").offset().top,
     contacto = $("#contacto").offset().top;
 
   window.addEventListener("resize", function () {
     let equipo = $("#equipo").offset().top,
       trabajo = $("#trabajo").offset().top,
+      calendario = $("#calendario").offset().top,
+      sugerencias = $("#sugerencias").offset().top,
       contacto = $("#contacto").offset().top;
   });
 
@@ -49,6 +53,26 @@ $(function () {
     $("html, body").animate(
       {
         scrollTop: trabajo - 100,
+      },
+      600
+    );
+  });
+
+  $("#enlace-calendario").on("click", function (e) {
+    e.preventDefault();
+    $("html, body").animate(
+      {
+        scrollTop: calendario - 100,
+      },
+      600
+    );
+  });
+
+  $("#enlace-sugerencia").on("click", function (e) {
+    e.preventDefault();
+    $("html, body").animate(
+      {
+        scrollTop: sugerencias - 100,
       },
       600
     );

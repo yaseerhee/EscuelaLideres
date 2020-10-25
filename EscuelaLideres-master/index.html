@@ -28,7 +28,9 @@
                 <div class="enlaces" id="enlaces">
                     <a href="#" id="enlace-inicio" class="btn-header">Inicio</a>
                     <a href="#" id="enlace-equipo" class="btn-header">Equipo</a>
+                    <a href="#" id="enlace-calendario" class="btn-header">Calendario</a>
                     <a href="#" id="enlace-trabajo" class="btn-header">Trabajos</a>
+                    <a href="#" id="enlace-sugerencia" class="btn-header">Sugerencias</a>
                     <a href="#" id="enlace-contacto" class="btn-header">Contacto</a>
                 </div>
                 <div class="icono" id="open">
@@ -76,7 +78,7 @@
             </div>
         </section>
         <section class="work contenedor" id="calendario">
-            <h3>calendario</h3>
+            <h3>Calendario</h3>
             <p class="after">Aquí encontraras las actividades que vamos a realizar este mes</p>
             <iframe
                 src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%234285F4&amp;ctz=Europe%2FMadrid&amp;src=cGZ0YzlzY2c3dWljdWtkbW1vOWoyM3Z0bWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZXMuc3BhaW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%234285F4&amp;color=%230B8043&amp;showTitle=0"
@@ -96,7 +98,6 @@
             <div class="galeria-work">
                 <div class="cont-work programacion">
                     <div class="img-work">
-                        <!-- <img src="img/programacion1.jpeg" alt=""> -->
                     </div>
                     <div class="textos-work">
                         <h4>175</h4>
@@ -104,7 +105,6 @@
                 </div>
                 <div class="cont-work programacion">
                     <div class="img-work">
-                        <!-- <img src="img/programacion2.jpeg" alt=""> -->
                     </div>
                     <div class="textos-work">
                         <h4>Priego 2018</h4>
@@ -112,7 +112,6 @@
                 </div>
                 <div class="cont-work programacion">
                     <div class="img-work">
-                        <!-- <img src="img/programacion3.jpeg" alt=""> -->
                     </div>
                     <div class="textos-work">
                         <h4>Salduero 2019</h4>
@@ -120,7 +119,6 @@
                 </div>
                 <div class="cont-work diseño">
                     <div class="img-work">
-                        <!-- <img src="img/diseño1.jpeg" alt=""> -->
                     </div>
                     <div class="textos-work">
                         <h4>Carabanchel</h4>
@@ -128,7 +126,6 @@
                 </div>
                 <div class="cont-work diseño">
                     <div class="img-work">
-                        <!-- <img src="img/diseño2.jpeg" alt=""> -->
                     </div>
                     <div class="textos-work">
                         <h4>Fnac</h4>
@@ -136,7 +133,6 @@
                 </div>
                 <div class="cont-work diseño">
                     <div class="img-work">
-                        <!-- <img src="img/diseño3.jpeg" alt=""> -->
                     </div>
                     <div class="textos-work">
                         <h4>Retiro</h4>
@@ -144,7 +140,6 @@
                 </div>
                 <div class="cont-work marketing">
                     <div class="img-work">
-                        <!-- <img src="img/marketing1.jpeg" alt=""> -->
                     </div>
                     <div class="textos-work">
                         <h4>Formacion trabajo en equipo</h4>
@@ -152,7 +147,6 @@
                 </div>
                 <div class="cont-work marketing">
                     <div class="img-work">
-                        <!-- <img src="img/marketing2.jpeg" alt=""> -->
                     </div>
                     <div class="textos-work">
                         <h4>Formacion bullying</h4>
@@ -160,7 +154,6 @@
                 </div>
                 <div class="cont-work marketing">
                     <div class="img-work">
-                        <!-- <img src="img/marketing3.jpeg" alt=""> -->
                     </div>
                     <div class="textos-work">
                         <h4>Formacion liderazgo</h4>
@@ -168,6 +161,18 @@
                 </div>
             </div>
         </section>
+        <section class="work contenedor" id="sugerencias">
+            <h3>Sugerencias</h3>
+            <div class="formulario">
+                <form action="contact.php" method="post">
+                    <input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required="" />
+                    <input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="" />
+                    <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea>
+                    <input id="submit" type="submit" name="submit" value="Enviar" />
+                </form>
+            </div>
+        </section>
+
     </main>
     <footer id="contacto">
         <div class="footer contenedor">
