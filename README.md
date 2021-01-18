@@ -9,4 +9,6 @@ Se trata de la página web que cree para La Escuela de Líderes, el objetivo de 
 - Para el funcionamiento de la página web (botones, animaciones, etc...) he usado *JavaScript* y *JQuery*.
 - Para el formulario he usado *PHP*.
 
+### Nivel: básico :green_book:
 #### Actualmente, se encuentra fuera de servicio.
+
